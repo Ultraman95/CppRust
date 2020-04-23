@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Sum: " << add(10, 20) << endl;
+    int sum = add(10, 20);
+    cout << "Sum: " << sum << endl;
     return 0;
 }
